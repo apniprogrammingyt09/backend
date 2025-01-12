@@ -1,4 +1,7 @@
-numpy
+python-multipart
 fastapi
 uvicorn
+jinja2
 mangum
+pydantic
+werkzeug
