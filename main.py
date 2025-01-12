@@ -22,8 +22,6 @@ app.add_middleware(
 
 
 
-# Serve static files (e.g., CSS, JS)
-app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Set up Jinja2 templates for rendering HTML
 templates = Jinja2Templates(directory="templates")
